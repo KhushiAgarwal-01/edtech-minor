@@ -11,7 +11,7 @@ export const About = () => {
       <section className='about py-16'>
         <div className='container'>
           <div className='heading text-center py-12'>
-            <h1 className='text-3xl font-semibold text-black'>Why An Scholercity Out Of The Ordinary</h1>
+            <h1 className='text-3xl font-semibold text-white'>Why An Scholercity Out Of The Ordinary</h1>
             <span className='text-sm mt-2 block'>you don't have to struggle alone, you've got our assistance and help.</span>
           </div>
           <div className='grid grid-cols-4 gap-5 mt-5 md:grid-cols-2'>
@@ -54,7 +54,7 @@ export const AboutContent = () => {
         </div>
         <div className='right w-2/3 md:w-full md:mt-16'>
           <div className='heading w-4/5 md:w-full'>
-            <h1 className='text-3xl font-semibold text-black'>Achieve Your Goals With Educal</h1>
+            <h1 className='text-3xl font-semibold text-white'>Achieve Your Goals With Educal</h1>
             <span className='text-sm mt-2 block leading-6'> Lorem, ipsum dolor sit amet consectetur adipisicing elit. Magnam officia, reiciendis sapiente adipisci nulla non consequuntur eos repellendus laborum veritatis obcaecati neque est id porro voluptatum. Fuga iure nulla cum. Lost the plot bobby such a fibber bleeding bits and bobs don't get shirty with me bugger all mate chinwag super pukka william barney, horse play buggered.</span>
             <ul className='my-5'>
               <li className='text-sm flex items-center gap-5'>
