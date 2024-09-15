@@ -2,9 +2,8 @@ import React, { useState } from "react"
 import LogoImg from "../assets/images/logo-black.png"
 import { LinkData } from "../assets/data/dummydata"
 import { NavLink } from "react-router-dom"
-import { BiShoppingBag } from "react-icons/bi"
 import { Link } from 'react-router-dom'
-import { HiOutlineMenuAlt1, HiViewGrid } from "react-icons/hi"
+import { HiOutlineMenuAlt1 } from "react-icons/hi"
 
 export const Header = () => {
   const [open, setOpen] = useState(false)
@@ -12,12 +11,7 @@ export const Header = () => {
     <>
       <header className='bg-white py-4 text-black sticky z-50 shadow-md top-0 left-0 w-full'>
         <div className='container flex justify-between items-center'>
-          <div className='logo flex items-center gap-6'>
-            <img src={LogoImg} alt='logo' className='h-5' />
-            <div className='category flex items-center text-sm gap-3'>
-              <HiViewGrid size={20} />
-              <span>category</span>
-            </div>
+          <div className='logo flex items-center gap-6 text-blue-500 font-bold'> studyplatform
           </div>
           <nav className={open ? "mobile-view" : "desktop-view"}>
             <ul className='flex items-center gap-6'>
@@ -31,9 +25,7 @@ export const Header = () => {
             </ul>
           </nav>
           <div className='account flex items-center gap-5'>
-            <button>
-              <BiShoppingBag size={25} />
-            </button>
+           
             <Link to='/sign-up'>SignUp</Link>{" "}
             <Link to='/sign-in'>SignIn</Link>{" "}
             <button className='open-menu' onClick={() => setOpen(!open)}>
