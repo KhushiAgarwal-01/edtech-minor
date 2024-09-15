@@ -4,7 +4,7 @@ import { Home } from "./pages/Home"
 import { BlogSinglePage } from "./components/common/BlogSinglePage"
 import { About } from "./pages/About"
 import { Courses } from "./pages/Courses"
-import { Blog } from "./pages/Blog"
+
 import { Instructor } from "./pages/Instructor"
 import SignUp from './pages/SignUp'
 import SignIn from './pages/SignIn'
@@ -47,14 +47,7 @@ function App() {
               </Layout>
             }
           />
-          <Route
-            path='/blog'
-            element={
-              <Layout>
-                <Blog />
-              </Layout>
-            }
-          />
+        
           <Route
             path='/single-blog'
             element={

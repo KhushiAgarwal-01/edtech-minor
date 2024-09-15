@@ -27,7 +27,7 @@ export const Footer = () => {
         <div className='container grid grid-cols-4 gap-5 md:grid-cols-2'>
           <div className='logo'>
             <img src={logImg} alt='logImg' className='h-5' />
-            <span className='text-[14px]'>Great lesson ideas and lesson plans for ESL teachers! Educators can customize lesson plans to best.</span>
+            <span className='text-[14px]'>Made with love by our team .</span>
           </div>
 
           <li>
@@ -38,15 +38,11 @@ export const Footer = () => {
             <NavLink to='#' className=' text-[14px] block mb-2'>
               Portfolio
             </NavLink>
-            <NavLink to='#' className=' text-[14px] block mb-2'>
-              Blog
-            </NavLink>
+           
             <NavLink to='#' className=' text-[14px] block mb-2'>
               Our team
             </NavLink>
-            <NavLink to='#' className=' text-[14px] block mb-2'>
-              Blog
-            </NavLink>
+            
             <NavLink to='#' className=' text-[14px] block mb-2'>
               Get in Touch
             </NavLink>
@@ -65,9 +61,7 @@ export const Footer = () => {
             <NavLink to='#' className=' text-[14px] block mb-2'>
               Pricing
             </NavLink>
-            <NavLink to='#' className=' text-[14px] block mb-2'>
-              Blog
-            </NavLink>
+            
             <NavLink to='#' className=' text-[14px] block mb-2'>
               Landing
             </NavLink>

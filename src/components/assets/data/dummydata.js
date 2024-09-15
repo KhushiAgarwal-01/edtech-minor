@@ -19,41 +19,37 @@ export const LinkData = [
     title: "Instructor",
     url: "/instructor",
   },
-  {
-    id: 5,
-    title: "blog",
-    url: "/blog",
-  },
+ 
 ]
 export const courses = [
   {
     id: 1,
-    cover: "../images/course-2-1.jpg",
-    title: "The Power of Podcast for Storytelling",
+    cover: "../images/C++ logo.svg",
+    title: "C++",
   },
   {
     id: 2,
-    cover: "../images/course-4-1.jpg",
-    title: "Fashion and Luxury Fashion in a Changing",
+    cover: "../images/python_logo.jpg",
+    title: "PYTHON",
   },
   {
     id: 3,
-    cover: "../images/course-5-1.jpg",
-    title: "Creative writing through Storytelling",
+    cover: "../images/java_logo.jpg",
+    title: "JAVA",
   },
   {
     id: 4,
-    cover: "../images/course-6-1.jpg",
-    title: "Improving The Accessibility Of Your Markdown",
+    cover: "../images/react_logo.webp",
+    title: "REACT",
   },
   {
     id: 5,
-    cover: "../images/course11.jpg",
-    title: "Product Manager Learn the Skills & job.",
+    cover: "../images/mongodb_logo.png",
+    title: "MONGODB",
   },
   {
     id: 6,
-    cover: "../images/course12.jpg",
-    title: "The business Intelligence analyst Course 2022",
+    cover: "../images/expressjs_logo.png",
+    title: "ExpressJs",
   },
 ]

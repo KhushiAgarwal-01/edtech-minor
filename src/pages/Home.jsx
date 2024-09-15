@@ -7,7 +7,7 @@ import { FaBookReader, FaGraduationCap, FaUsers } from "react-icons/fa"
 import { About } from "./About"
 import { Courses } from "./Courses"
 import { Instructor } from "./Instructor"
-import { Blog } from "./Blog"
+
 
 export const Home = () => {
   return (
@@ -19,7 +19,7 @@ export const Home = () => {
       <br />
       <Courses />
       <Instructor />
-      <Blog />
+    
     </>
   )
 }
