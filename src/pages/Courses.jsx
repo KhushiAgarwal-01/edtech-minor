@@ -22,10 +22,7 @@ export const Courses = () => {
               <div className='box rounded-lg shadow-shadow1 bg-white'>
                 <div className='images rounded-t-lg relative overflow-hidden h-40 w-ful'>
                   <img src={item.cover} alt='' className='rounded-t-lg object-cover w-full h-full transition ease-in-out delay-150 cursor-pointer hover:scale-125 duration-300' />
-                  <div className='categ flex gap-4 absolute top-0 m-3'>
-                    <span className='text-[14px] bg-blue-700 p-1 px-3 text-white rounded-[5px] shadow-md'>Finance</span>
-                    <span className='text-[14px] bg-pink-700 p-1 px-3 text-white rounded-[5px] shadow-md'>Lifestyle</span>
-                  </div>
+                  
                 </div>
                 <div className='text p-3'>
                   <div className='flex justify-between items-center'>
@@ -41,7 +38,7 @@ export const Courses = () => {
                   <h3 className='text-black my-4 font-medium h-10'>{item.title}</h3>
                   <div className='user flex items-center'>
                     <img className='rounded-full' src='https://secure.gravatar.com/avatar/75ec18a5bf959aab895830be3a78cb34?s=50&d=mm&r=g' alt='' />
-                    <span className='text-[14px] ml-2'> sunil</span>
+                    <span className='text-[14px] ml-2'>By Prasoon</span>
                   </div>
                 </div>
                 <div to='/' className='flex items-center justify-between border-t border-gray-200 p-3'>
