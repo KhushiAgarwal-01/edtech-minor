@@ -3,6 +3,7 @@ import LogoImg from "../assets/images/logo-black.png"
 import { LinkData } from "../assets/data/dummydata"
 import { NavLink } from "react-router-dom"
 import { BiShoppingBag } from "react-icons/bi"
+import { Link } from 'react-router-dom'
 import { HiOutlineMenuAlt1, HiViewGrid } from "react-icons/hi"
 
 export const Header = () => {
@@ -33,7 +34,8 @@ export const Header = () => {
             <button>
               <BiShoppingBag size={25} />
             </button>
-            <button>Login</button>{" "}
+            <Link to='/sign-up'>SignUp</Link>{" "}
+            <Link to='/sign-in'>SignIn</Link>{" "}
             <button className='open-menu' onClick={() => setOpen(!open)}>
               <HiOutlineMenuAlt1 size={25} />
             </button>
