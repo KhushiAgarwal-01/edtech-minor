@@ -8,7 +8,7 @@ import { Courses } from "./pages/Courses"
 import { Instructor } from "./pages/Instructor"
 import SignUp from './pages/SignUp'
 import SignIn from './pages/SignIn'
-import { FaChrome } from "react-icons/fa"
+import Chatbot from "./pages/Chatbot"
 
 function App() {
   return (
@@ -58,7 +58,8 @@ function App() {
           />
 
 <Route  path='/sign-up' element={<SignUp />}/>    
-<Route  path='/sign-in' element={<SignIn />}/>    
+<Route  path='/sign-in' element={<SignIn />}/> 
+<Route  path='/chatbot' element={<Chatbot />}/>    
         </Routes>
       </BrowserRouter>
     </>
