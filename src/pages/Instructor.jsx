@@ -8,8 +8,8 @@ export const Instructor = () => {
       <section className='instructor mb-16'>
         <div className='container'>
           <div className='heading py-12 text-center w-2/3 m-auto md:w-full'>
-            <h1 className='text-3xl font-semibold text-white'>What Is Skilline?</h1>
-            <span className='text-[14px] mt-2 block'>Sloshed faff about me old mucker blatant bubble and squeak hanky panky some dodgy chav bevvy arse chimney pot I, ruddy plastered buggered smashing blow off I'm telling up the kyver he legged it bleeder jolly good,</span>
+            <h1 className='text-3xl font-semibold text-white'>What Is study platform?</h1>
+            <span className='text-[14px] mt-2 block'>We collaborate with top subject matter experts to create clear, comprehensive content in user-friendly language. Our video editing team enhances this content with graphics and animations for better understanding. We ensure that the content is complete and self-sufficient, enabling users to grasp the subject independently.</span>
           </div>
           <div className='content grid grid-cols-2 gap-5 md:grid-cols-1'>
             <div className='images rounded-lg relative overflow-hidden h-72 w-ful before:bg-backbg before:h-72 before:w-full before:absolute before:top-0 before:left-0 before:content before:z-10'>
@@ -23,14 +23,14 @@ export const Instructor = () => {
               <img src='https://bdevs.net/wp/educal/wp-content/uploads/2021/09/what-2.jpg' alt='' className='rounded-t-lg object-cover w-full h-72 relative' />
               <div className='categ flex flex-col gap-4 absolute top-5 z-30 m-3 p-8 items-center justify-center text-center'>
                 <h2 className='text-3xl text-white font-semibold'>Become an Instructor</h2>
-                <button className='text-[15px] py-2 px-4 border border-gray-200 rounded-md text-white'>Start a class today</button>
+                <button className='text-[15px] py-2 px-4 border border-gray-200 rounded-md text-white'>Start earning today</button>
               </div>
             </div>
           </div>
           <div className='content'>
             <div className='heading py-12 text-center w-2/3 m-auto md:w-full'>
               <h1 className='text-3xl font-semibold text-white'>We Are Proud</h1>
-              <span className='text-[14px] mt-2 block'>You don't have to struggle alone, you've got our assistance and help.</span>
+              <span className='text-[14px] mt-2 block'>delivering high-quality, expert-driven content that empowers users to achieve their learning goals independently.</span>
             </div>
             <div className='content grid grid-cols-4 gap-5 md:grid-cols-2'>
               <InstructorCard color='text-red-500 ' icon={<FaUsers size={40} />} title='63' desc='Students Enrolled' />
