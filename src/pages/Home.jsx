@@ -31,10 +31,10 @@ export const HomeContent = () => {
           <div className='flex items-center justify-center md:flex-col'>
             <div className='left w-1/2 text-black md:w-full'>
               <h1 className='text-4xl leading-tight text-black font-semibold'>
-                Launch your <br /> Own online learning <br /> Platform
+                Take Control <br /> of Your Own Online learning <br /> 
               </h1>
               <h3 className='text-lg mt-3'>Unlimited access to all 60+ instructors.</h3>
-              <span className='text-[14px]'>2 passes (with access to all classes) for $240</span>
+              <span className='text-[14px]'> (Gain access to courses across every category) for $240</span>
 
               <div className='relative text-gray-600 focus-within:text-gray-400 mt-5'>
                 <input type='search' className='py-3 text-sm  bg-white rounded-md pl-10 focus:outline-none ' placeholder='Search...' autocomplete='off' />
@@ -44,7 +44,7 @@ export const HomeContent = () => {
                   </button>
                 </span>
               </div>
-              <span className='text-[14px]'>You`re guaranteed to find something that`s right for you.</span>
+              <span className='text-[14px]'>You’re guaranteed to find the perfect fits for you.</span>
             </div>
             <div className='right w-1/2 md:w-full relative'>
               <div className='images relative'>
@@ -59,8 +59,8 @@ export const HomeContent = () => {
                     <BsFillLightningChargeFill size={25} />
                   </div>
                   <div className='text flex flex-col items-start px-4'>
-                    <span className='text-sm text-black'>Congrstulations</span>
-                    <span className='text-[12px]'>Your admission completed</span>
+                    <span className='text-sm text-black'>Congratulations</span>
+                    <span className='text-[12px]'>Your admission is completed</span>
                   </div>
                 </button>
                 <button className='bg-white shadow-md absolute bottom-32 left-48 z-30 p-2 flex items-center rounded-md pr-8'>
@@ -69,7 +69,7 @@ export const HomeContent = () => {
                   </div>
                   <div className='text flex flex-col items-start px-4'>
                     <span className='text-sm text-black'>450K</span>
-                    <span className='text-[12px]'>Assisted Student</span>
+                    <span className='text-[12px]'>Assisted Students</span>
                   </div>
                 </button>
                 <button className='bg-white shadow-md absolute top-56 -right-32 z-30 p-2  md:top-96 md:-right-5 flex items-center rounded-md'>

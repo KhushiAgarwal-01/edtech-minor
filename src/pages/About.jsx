@@ -3,6 +3,11 @@ import aboutImg from "../components/assets/images/about.jpg"
 import aboutImgBanner from "../components/assets/images/about-banner.jpg"
 import imgs from "../components/assets/images/join1.png"
 import { FaBookDead } from "react-icons/fa"
+import { MdOutlinePaid } from "react-icons/md";
+import { IoBookSharp } from "react-icons/io5";
+import { RiPresentationFill } from "react-icons/ri";
+import { MdCastForEducation } from "react-icons/md";
+
 import { AiOutlineCheck } from "react-icons/ai"
 
 export const About = () => {
@@ -11,14 +16,14 @@ export const About = () => {
       <section className='about py-16'>
         <div className='container'>
           <div className='heading text-center py-12'>
-            <h1 className='text-3xl font-semibold text-black'>Why An Scholercity Out Of The Ordinary</h1>
-            <span className='text-sm mt-2 block'>you don't have to struggle alone, you've got our assistance and help.</span>
+            <h1 className='text-3xl font-semibold text-black'>Why the student platform Out Of The Ordinary?</h1>
+            <span className='text-sm mt-2 block'>we’re here to provide support and assistance every step of the way.</span>
           </div>
           <div className='grid grid-cols-4 gap-5 mt-5 md:grid-cols-2'>
-            <AboutCard color='bg-[#2D69F0]' icon={<FaBookDead size={50} />} title='4,000 Online courses' desc="You don't have to struggle alone, you've " />
-            <AboutCard color='bg-[#DD246E]' icon={<FaBookDead size={50} />} title='4,000 Online courses' desc="You don't have to struggle alone, you've " />
-            <AboutCard color='bg-[#8007E6]' icon={<FaBookDead size={50} />} title='4,000 Online courses' desc="You don't have to struggle alone, you've " />
-            <AboutCard color='bg-[#0CAE74]' icon={<FaBookDead size={50} />} title='4,000 Online courses' desc="You don't have to struggle alone, you've " />
+            <AboutCard color='bg-[#2D69F0]' icon={< IoBookSharp size={50} />} title='10+ Online courses' desc="You don't have to struggle alone, you've " />
+            <AboutCard color='bg-[#DD246E]' icon={<MdCastForEducation  size={50} />} title='Free courses' desc="enroll for free" />
+            <AboutCard color='bg-[#8007E6]' icon={ <MdOutlinePaid size={50}/>} title='paid courses' desc="You don't have to struggle alone, you've " />
+            <AboutCard color='bg-[#0CAE74]' icon={<RiPresentationFill size={50} />} title='interview prep' desc="You don't have to struggle alone, you've " />
           </div>
         </div>
       </section>
@@ -55,18 +60,18 @@ export const AboutContent = () => {
         <div className='right w-2/3 md:w-full md:mt-16'>
           <div className='heading w-4/5 md:w-full'>
             <h1 className='text-3xl font-semibold text-black'>Achieve Your Goals With Educal</h1>
-            <span className='text-sm mt-2 block leading-6'> Lorem, ipsum dolor sit amet consectetur adipisicing elit. Magnam officia, reiciendis sapiente adipisci nulla non consequuntur eos repellendus laborum veritatis obcaecati neque est id porro voluptatum. Fuga iure nulla cum. Lost the plot bobby such a fibber bleeding bits and bobs don't get shirty with me bugger all mate chinwag super pukka william barney, horse play buggered.</span>
+            <span className='text-sm mt-2 block leading-6'> Learn and grow in your professional and personal life with our flexible training modes. Our effective interactive online live training is conducted by qualified trainers in instructor-led virtual classrooms. We emphasize collaboration and real-time learning, ensuring you engage with subject experts during interactive classroom sessions. Note that we do not offer recorded videos; instead, we believe in learning while collaborating ideas with our trainers.</span>
             <ul className='my-5'>
               <li className='text-sm flex items-center gap-5'>
-                <AiOutlineCheck className='text-green-500' /> Upskill your organization.
+                <AiOutlineCheck className='text-green-500' /> Flexible Training Modes
               </li>
               <li className='text-sm flex items-center gap-5 my-2'>
                 <AiOutlineCheck className='text-green-500' />
-                Access more then 100K online courses
+                Interactive Live Training:
               </li>
               <li className='text-sm flex items-center gap-5'>
                 <AiOutlineCheck className='text-green-500' />
-                Learn the latest skills
+                Comprehensive Solutions
               </li>
             </ul>
             <button className='px-5 py-2 border border-gray-300 rounded-md text-sm'>Apply Now</button>
