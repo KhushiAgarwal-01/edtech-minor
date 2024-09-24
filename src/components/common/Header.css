@@ -1,0 +1,38 @@
+*{
+    
+}
+.nav-link, .auth-button {
+  position: relative;
+  font-size: 15px;
+  color: white;
+  text-decoration: none;
+  transition: color 0.3s ease-in-out;
+}
+
+.nav-link:hover, .auth-button:hover {
+  color: red; /* Glow color */
+}
+
+.nav-link::after, .auth-button::after {
+  content: '';
+  position: absolute;
+  width: 0;
+  height: 2px;
+  bottom: -5px;
+  left: 50%;
+  background-color: red; /* Glow color */
+  transition: all 0.4s ease-in-out;
+}
+
+.nav-link:hover::after, .auth-button:hover::after {
+  width: 100%;
+  left: 0;
+}
+
+.nav-link.active, .auth-button.active {
+  color: red; /* Active link glow color */
+}
+
+.nav-link:hover, .auth-button:hover {
+  text-shadow: 0 0 8px red(0, 255, 255, 0.7);
+}

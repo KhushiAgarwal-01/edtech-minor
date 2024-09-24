@@ -15,8 +15,9 @@ export const About = () => {
       <section className='about py-16'>
         <div className='container'>
           <div className='heading text-center py-12'>
-            <h1 className='text-3xl font-semibold text-black'>Why the student platform Out Of The Ordinary?</h1>
-            <span className='text-sm mt-2 block'>we’re here to provide support and assistance every step of the way.</span>
+          <h1 className='text-3xl font-semibold text-red-500'>Why the student platform Out Of The Ordinary?</h1>
+
+            <span className='text-white block'>we’re here to provide support and assistance every step of the way.</span>
           </div>
           <div className='grid grid-cols-4 gap-5 mt-5 md:grid-cols-2'>
             <AboutCard color='bg-[#2D69F0]' icon={< IoBookSharp size={50} />} title='10+ Online courses' desc="You don't have to struggle alone, you've " />
@@ -58,22 +59,22 @@ export const AboutContent = () => {
         </div>
         <div className='right w-2/3 md:w-full md:mt-16'>
           <div className='heading w-4/5 md:w-full'>
-            <h1 className='text-3xl font-semibold text-black'>Achieve Your Goals With Educal</h1>
-            <span className='text-sm mt-2 block leading-6'> Learn and grow in your professional and personal life with our flexible training modes. Our effective interactive online live training is conducted by qualified trainers in instructor-led virtual classrooms. We emphasize collaboration and real-time learning, ensuring you engage with subject experts during interactive classroom sessions. Note that we do not offer recorded videos; instead, we believe in learning while collaborating ideas with our trainers.</span>
+            <h1 className='text-3xl font-semibold text-red-500'>Achieve Your Goals With Educal</h1>
+            <span className='text-white block leading-6'> Learn and grow in your professional and personal life with our flexible training modes. Our effective interactive online live training is conducted by qualified trainers in instructor-led virtual classrooms. We emphasize collaboration and real-time learning, ensuring you engage with subject experts during interactive classroom sessions. Note that we do not offer recorded videos; instead, we believe in learning while collaborating ideas with our trainers.</span>
             <ul className='my-5'>
-              <li className='text-sm flex items-center gap-5'>
+              <li className='text-white flex items-center gap-5'>
                 <AiOutlineCheck className='text-green-500' /> Flexible Training Modes
               </li>
-              <li className='text-sm flex items-center gap-5 my-2'>
+              <li className='text-white flex items-center gap-5 my-2'>
                 <AiOutlineCheck className='text-green-500' />
                 Interactive Live Training:
               </li>
-              <li className='text-sm flex items-center gap-5'>
+              <li className='text-white flex items-center gap-5'>
                 <AiOutlineCheck className='text-green-500' />
                 Comprehensive Solutions
               </li>
             </ul>
-            <button className='px-5 py-2 border border-gray-300 rounded-md text-sm'>Apply Now</button>
+            <button className='px-5 py-2 border border-gray-300 rounded-md text-white'>Apply Now</button>
           </div>
         </div>
       </div>

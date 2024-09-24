@@ -8,8 +8,8 @@ export const Instructor = () => {
       <section className='instructor mb-16'>
         <div className='container'>
           <div className='heading py-12 text-center w-2/3 m-auto md:w-full'>
-            <h1 className='text-3xl font-semibold text-white'>What Is study platform?</h1>
-            <span className='text-[14px] mt-2 block'>We collaborate with top subject matter experts to create clear, comprehensive content in user-friendly language. Our video editing team enhances this content with graphics and animations for better understanding. We ensure that the content is complete and self-sufficient, enabling users to grasp the subject independently.</span>
+            <h1 className='text-3xl font-semibold text-red-500'>What Is study platform?</h1>
+            <span className='text-white mt-2 block'>We collaborate with top subject matter experts to create clear, comprehensive content in user-friendly language. Our video editing team enhances this content with graphics and animations for better understanding. We ensure that the content is complete and self-sufficient, enabling users to grasp the subject independently.</span>
           </div>
           <div className='content grid grid-cols-2 gap-5 md:grid-cols-1'>
             <div className='images rounded-lg relative overflow-hidden h-72 w-ful before:bg-backbg before:h-72 before:w-full before:absolute before:top-0 before:left-0 before:content before:z-10'>
@@ -29,8 +29,8 @@ export const Instructor = () => {
           </div>
           <div className='content'>
             <div className='heading py-12 text-center w-2/3 m-auto md:w-full'>
-              <h1 className='text-3xl font-semibold text-white'>We Are Proud</h1>
-              <span className='text-[14px] mt-2 block'>delivering high-quality, expert-driven content that empowers users to achieve their learning goals independently.</span>
+              <h1 className='text-3xl font-semibold text-red-500'>We Are Proud</h1>
+              <span className='text-white mt-2 block'>delivering high-quality, expert-driven content that empowers users to achieve their learning goals independently.</span>
             </div>
             <div className='content grid grid-cols-4 gap-5 md:grid-cols-2'>
               <InstructorCard color='text-red-500 ' icon={<FaUsers size={40} />} title='63' desc='Students Enrolled' />

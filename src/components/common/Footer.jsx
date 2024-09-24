@@ -2,7 +2,7 @@ import React from "react"
 import logImg from "../assets/images/logo-black.png"
 import { BsApple, BsGooglePlay } from "react-icons/bs"
 import { NavLink } from "react-router-dom"
-
+import logo from "../assets/images/logo.png"
 export const Footer = () => {
   return (
     <>
@@ -23,60 +23,61 @@ export const Footer = () => {
           </div>
         </div>
       </section>
-      <footer className='bg-[#F3F4F8] py-10 pt-32 -mt-24'>
+      <footer className='bg-[#181a19] py-10 pt-32 -mt-24'>
         <div className='container grid grid-cols-4 gap-5 md:grid-cols-2'>
           <div className='logo'>
-            <span className='text-[14px]'>Made with love by our team</span>
+          <span className='text-white' style={{ color: 'red' }}>Made with love by our team</span>
+          <img src={logo} className="w-40 h-15 mt-5" />
           </div>
 
           <li>
-            <h4 className='text-black text-sm font-semibold mb-5'>Company</h4>
-            <NavLink to='#' className=' text-[14px] block mb-2 '>
+            <h4 className='text-red text-sm font-semibold mb-5' style={{ color: 'red' }}>Company</h4>
+            <NavLink to='#' className=' text-white block mb-2 '>
               Contact
             </NavLink>
-            <NavLink to='#' className=' text-[14px] block mb-2'>
+            <NavLink to='#' className=' text-white block mb-2'>
               Portfolio
             </NavLink>
            
-            <NavLink to='#' className=' text-[14px] block mb-2'>
+            <NavLink to='#' className=' text-white block mb-2'>
               Our team
             </NavLink>
             
-            <NavLink to='#' className=' text-[14px] block mb-2'>
+            <NavLink to='#' className=' text-white block mb-2'>
               Get in Touch
             </NavLink>
-            <NavLink to='#' className=' text-[14px] block mb-2'>
+            <NavLink to='#' className=' text-white block mb-2'>
               FAQ
             </NavLink>
-            <NavLink to='#' className=' text-[14px] block mb-2'>
+            <NavLink to='#' className=' text-white block mb-2'>
               Latest news
             </NavLink>
           </li>
           <li>
-            <h4 className='text-black text-sm font-semibold mb-5'>Platform</h4>
-            <NavLink to='#' className=' text-[14px] block mb-2'>
+            <h4 className='text-black text-sm font-semibold mb-5' style={{ color: 'red' }}>Platform</h4>
+            <NavLink to='#' className=' text-white block mb-2'>
               Shop
             </NavLink>
-            <NavLink to='#' className=' text-[14px] block mb-2'>
+            <NavLink to='#' className=' text-white block mb-2'>
               Pricing
             </NavLink>
             
-            <NavLink to='#' className=' text-[14px] block mb-2'>
+            <NavLink to='#' className=' text-white block mb-2'>
               Landing
             </NavLink>
           </li>
           <li>
-            <h4 className='text-black text-sm font-semibold mb-5'>Subscribe</h4>
-            <NavLink to='#' className=' text-[14px] block mb-2'>
+            <h4 className='text-black text-sm font-semibold mb-5' style={{ color: 'red' }}>Subscribe</h4>
+            <NavLink to='#' className=' text-white block mb-2'>
               About us
             </NavLink>
-            <NavLink to='#' className=' text-[14px] block mb-2'>
+            <NavLink to='#' className=' text-white block mb-2'>
               Contact
             </NavLink>
-            <NavLink to='#' className=' text-[14px] block mb-2'>
+            <NavLink to='#' className=' text-white block mb-2'>
               Reviews
             </NavLink>
-            <NavLink to='#' className=' text-[14px] block mb-2'>
+            <NavLink to='#' className=' text-white block mb-2'>
               Services
             </NavLink>
           </li>
